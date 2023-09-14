@@ -1,12 +1,12 @@
 import React from "react";
 
-import { Counter } from "./Counter.jsx"
-
+//create your first component
 const Home = () => {
-    return (
-        <div>
-            <Counter>Counter</Counter>
-        </div>
-    );
+	return (
+		<div className="text-center">
+			{counter}
+		</div>
+	);
 };
+
 export default Home;
